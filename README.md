@@ -30,7 +30,7 @@ A simple responsive blog preview card. The goal was to practice semantic HTML, C
 
 ### What I learned
 
-This was my second Frontend Mentor project.
+This was my second Frontend Mentor project.  I learned a lot about display: flex.  I struggled a bit with vertical spacing, but figured it out in the end.
 
 ### Author
 
