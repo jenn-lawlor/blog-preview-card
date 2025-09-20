@@ -25,16 +25,35 @@
   <body>
     <div class="card">
       <img
+        class="card__img"
         src="./assets/images/illustration-article.svg"
         alt="Blog Preview Card Background Image"
-        class="background-img"
         width="576"
         height="576"
       />
-      <div class="card_body">
-        <!-- the rest of your content -->
+      <div class="card__content">
+        <span class="card__tag">Learning</span>
+        <p class="card__meta">
+          Published <time datetime="2023-12-21">21 Dec 2023</time>
+        </p>
+        <h1 class="card__title">HTML &amp; CSS foundations</h1>
+        <p class="card__excerpt">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <footer class="card__footer">
+          <img
+            class="card__avatar"
+            src="assets/images/image-avatar.webp"
+            alt="Greg Hooper"
+          />
+          <span class="card__author-name">Greg Hooper</span>
+        </footer>
+        <!-- End of .card__footer <footer> -->
       </div>
+      <!-- End of .card__content <div> -->
     </div>
+    <!-- End of .card <div> -->
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
