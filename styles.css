@@ -1,0 +1,52 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+  --radius-img: 10px;
+  --radius-card: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--gray-500);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  gap: 1rem;
+}
+.card {
+  max-width: 320px;
+  width: 100%;
+  background-color: var(--white);
+  padding: 16px 16px 40px;
+  border-radius: var(--radius-card);
+  text-align: center;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 1);
+  border: 1px solid var(--gray-950);
+  margin-bottom: 2rem;
+}
+.background-img {
+    display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-img);
+}
+.attribution { 
+    font-size: .7rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
