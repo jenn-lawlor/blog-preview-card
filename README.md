@@ -20,7 +20,7 @@ A simple responsive blog preview card. The goal was to practice semantic HTML, C
 
 ### Links
 
-- Live Site URL: [View My GitHub Page](https://jenn-lawlor.github.io/blog-preview-card-main/)
+- Live Site URL: [View My GitHub Page](https://jenn-lawlor.github.io/blog-preview-card)
 
 ### Built with
 
